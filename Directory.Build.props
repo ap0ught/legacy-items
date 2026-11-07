@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>../.build/LegacyItems/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>../.build/LegacyItems/bin/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

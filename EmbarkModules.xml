@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<embarkmodules>
+  <!-- Legacy Items selection module - adds a selection screen after game mode -->
+  <module Class="LegacyItems.LegacyItemEmbarkModule">
+    <window ID="Chargen/LegacyItems" Prefab="HorizScroll" Class="LegacyItems.LegacyItemEmbarkWindow">
+      <name>Inheritance</name>
+      <title>:select inheritance:</title>
+    </window>
+  </module>
+</embarkmodules>

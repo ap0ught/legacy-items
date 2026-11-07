@@ -1,0 +1,25 @@
+{
+  "id": "LegacyItems",
+  "title": "{{W|Inheritance}} {{B|(Legacy Items)}}",
+  "description": "Pass down items from character deaths into a pool of legacy items that can be selected from when starting a new run.",
+  "version": "2.2.2",
+  "author": "Kraut Kontrol",
+  "loadafter": [],
+  "preloadScripts": [
+    "Scripts/LegacyPoolManager.cs",
+    "Scripts/LegacyItemSerializer.cs",
+    "Scripts/LegacyItemSerializer.Serialization.cs",
+    "Scripts/LegacyItemSerializer.Deserialization.cs",
+    "Scripts/ModStateSerializer.cs",
+    "Scripts/WeightedItemSelector.cs",
+    "Scripts/LegacyItemOptions.cs",
+    "Scripts/LegacyItemOptionsHandler.cs",
+    "Scripts/LegacyItemPart.cs",
+    "Scripts/LegacyItemSelectionUI.cs",
+    "Scripts/LegacyItemEmbarkWindow.cs",
+    "Scripts/LegacyItemEmbarkModule.cs",
+    "Scripts/LegacyItemText.cs",
+    "Scripts/LegacyItemWishCommands.cs",
+    "Scripts/DebugWishes.cs"
+  ]
+}

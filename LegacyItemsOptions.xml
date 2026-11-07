@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options maxPoolSize="25">
+  <!-- Enable preseed items for new pools -->
+  <option
+    ID="Option_LegacyItems_EnablePreseed"
+    DisplayText="Restock preseed items"
+    Category="Mods: Legacy Items"
+    Type="Button"
+    OnClick="LegacyItems.LegacyItemOptionsHandler.RestockPreseedClick">
+    <helptext>Adds the preseed items that ship with the mod to the pool again. Will override existing items in the pool if the pool would otherwise exceed its maximum pool size.</helptext>
+  </option>
+
+  <!-- Enable debug logging -->
+  <option
+    ID="Option_LegacyItems_DebugLogging"
+    DisplayText="Debug logging"
+    Category="Mods: Legacy Items"
+    Type="Checkbox"
+    Default="No"
+    Restart="false">
+    <helptext>Enable verbose debug logging to the game log file (Player.log). Useful for
+      troubleshooting issues with legacy item collection and granting.</helptext>
+  </option>
+
+  <!-- Clear pool button -->
+  <option
+    ID="Option_LegacyItems_ClearPool"
+    DisplayText="Empty item pool"
+    Category="Mods: Legacy Items"
+    Type="Button"
+    OnClick="LegacyItems.LegacyItemOptionsHandler.ClearPoolClick">
+    <helptext>Remove all items from the legacy pool. This cannot be undone.</helptext>
+  </option>
+</options>

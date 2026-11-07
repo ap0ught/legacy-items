@@ -1,0 +1,9 @@
+# .NET / Roslyn build artifacts
+bin/
+obj/
+*.user
+*.cache
+
+# OS noise
+.DS_Store
+Thumbs.db

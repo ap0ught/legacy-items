@@ -61,7 +61,13 @@ workshop version, and no other call site in the mod misuses the async API.
 
 1. Make sure **Options → Modding → Allow scripting mods** is enabled
    (`Local/PlayerOptions.json` → `"OptionAllowCSMods": "Yes"`).
-2. Copy this directory into your mods folder:
+2. Install/update with the helper script (or copy manually):
+
+   ```bash
+   ./install.sh   # from this repo; uses QUD_MODS_DIR or the default Linux Mods path
+   ```
+
+   Manual copy equivalent:
 
    ```
    ~/.config/unity3d/Freehold Games/CavesOfQud/Mods/LegacyItems/

@@ -8,7 +8,7 @@ This repo is a **maintenance fork** of **Legacy Items / “Inheritance”** (ori
 
 | Path | What it is |
 |---|---|
-| `manifest.json` | mod identity (`id: LegacyItems`) + `preloadScripts` |
+| `manifest.json` | current Qud mod metadata (`ID: LegacyItems`) |
 | `Scripts/*.cs` | mod source (16 files) |
 | `EmbarkModules.xml`, `LegacyItemsOptions.xml` | mod data/config |
 | `README.md` | what the mod does, the compile fix, and **human install instructions** |

@@ -73,7 +73,7 @@ workshop version, and no other call site in the mod misuses the async API.
    ~/.config/unity3d/Freehold Games/CavesOfQud/Mods/LegacyItems/
    ```
 
-   (Any folder name works — the mod's identity comes from `manifest.json` → `"id": "LegacyItems"`.)
+   (Any folder name works — the mod's identity comes from `manifest.json` → `"ID": "LegacyItems"`.)
 3. Launch the game. Mods are enabled by default.
 4. Confirm it built:
 
